@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">"Fisch essen, Nicht blindgänger essen "</string>
+    <string name="points">25 Punkte</string>
+    <string name="points2">50 Punkte</string>
+    <string name="_40_points">40 Punkte</string>
+    <string name="game_over">Spiel Ist Aus</string>
+    <string name="start">Beginnen</string>
+    <string name="score">"Ergebnis : "</string>
+    <string name="score1">ERGEBNIS</string>
+    <string name="highest_score">"DIE HÖCHSTE ERGEBNISSE "</string>
+    <string name="touch">"Tippen Sie auf, um das Spiel zu starten "</string>
+    <string name="eat_fish">FISCH ESSEN</string>
+</resources>

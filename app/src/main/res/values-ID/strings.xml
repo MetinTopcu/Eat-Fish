@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Makan ikan - Jangan makan perangkap</string>
+    <string name="points">25 Titik</string>
+    <string name="points2">50 Titik</string>
+    <string name="_40_points">40 Titik</string>
+    <string name="game_over">Tamat</string>
+    <string name="start">Mulailah</string>
+    <string name="score">"Titik : "</string>
+    <string name="score1">"TITIK "</string>
+    <string name="highest_score">"TITIK TERTINGGI "</string>
+    <string name="touch">" Ketuk untuk memulai permainan"</string>
+    <string name="eat_fish">MAKAN IKAN</string>
+</resources>

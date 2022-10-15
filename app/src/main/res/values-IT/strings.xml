@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mangia pesce - Non mangiare trappola</string>
+    <string name="points">25 Punteggio</string>
+    <string name="points2">50 Punteggio</string>
+    <string name="_40_points">40 Punteggio</string>
+    <string name="game_over">Gioco Finito</string>
+    <string name="start">Inizio</string>
+    <string name="score">"Punteggio : "</string>
+    <string name="score1">PUNTEGGIO</string>
+    <string name="highest_score">"PUNTEGGIO ALTO "</string>
+    <string name="touch">"Tocca per avviare il gioco "</string>
+    <string name="eat_fish">MANGIA PESCE</string>
+</resources>

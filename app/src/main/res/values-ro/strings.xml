@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mănâncă pește - nu mănâncă bombe</string>
+    <string name="points">25 Punct</string>
+    <string name="points2">50 Punct</string>
+    <string name="_40_points">40 Punct</string>
+    <string name="game_over">Joc Incheiat</string>
+    <string name="start">Joaca</string>
+    <string name="score">"Punct  : "</string>
+    <string name="score1">PUNCT</string>
+    <string name="highest_score">HIGHEST PUNCT</string>
+    <string name="touch">"Atingeți pentru a începe jocul "</string>
+    <string name="eat_fish">"MĂNÂNCĂ PEȘTE "</string>
+</resources>

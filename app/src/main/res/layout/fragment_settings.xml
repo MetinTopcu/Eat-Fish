@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.7"
+    android:background="#F0000000"
+    tools:context=".SettingsFragment">
+
+
+    <ImageView
+        android:id="@+id/imageViewmusic"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:background="@drawable/sesozel"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_music_note_24"
+        app:tint="#C4FFFFFF"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewtiklama"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/imageViewmusic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sesozel"
+        android:src="@drawable/audio"
+        app:tint="#C4FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewsensivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewtiklama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Sensivity"
+        android:textColor="#00B8D4"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarsensivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewsensivity"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="50"
+        android:progressBackgroundTint="#00B8D4" />
+
+    <TextView
+        android:id="@+id/textViewsensivityayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBarsensivity"
+        android:layout_centerHorizontal="true"
+        android:text="50"
+        android:textColor="#00B8D4"
+        android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageViewdevam"
+            android:layout_width="86dp"
+            android:layout_height="76dp"
+            android:background="@drawable/sesozel"
+            android:src="@drawable/play"
+            app:tint="#C4FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

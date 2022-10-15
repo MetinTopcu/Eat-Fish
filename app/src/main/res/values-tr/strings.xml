@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Balık ye - Mayın yeme</string>
+    <string name="points">25 Puan</string>
+    <string name="points2">50 Puan</string>
+    <string name="_40_points">40 Puan</string>
+    <string name="game_over">Oyun Bitti</string>
+    <string name="start">Başla</string>
+    <string name="score">"Skor : "</string>
+    <string name="score1">SKOR</string>
+    <string name="highest_score">YÜKSEK SKOR</string>
+    <string name="touch">Oyuna Başlamak İçin Dokun</string>
+    <string name="eat_fish">BALIK YE - TUZAK YEME</string>
+</resources>

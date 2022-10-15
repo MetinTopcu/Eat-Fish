@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ешь рыбу - не ешь ловушки</string>
+    <string name="points">25 счет</string>
+    <string name="points2">50 счет</string>
+    <string name="_40_points">40 счет</string>
+    <string name="game_over">игра окончена</string>
+    <string name="start">Start</string>
+    <string name="score">"результат : "</string>
+    <string name="score1">результат</string>
+    <string name="highest_score">лучший результат</string>
+    <string name="touch">"Нажмите, чтобы начать игру "</string>
+    <string name="eat_fish">"ЕШЬ РЫБУ "</string>
+</resources>

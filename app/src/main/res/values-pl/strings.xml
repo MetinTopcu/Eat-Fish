@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Jedz ryby - nie jedz pułapki</string>
+    <string name="points">25 WYNIK</string>
+    <string name="points2">50 WYNIK</string>
+    <string name="_40_points">40 WYNIK</string>
+    <string name="game_over">"Koniec Gry "</string>
+    <string name="start">Początek</string>
+    <string name="score">"Wynik : "</string>
+    <string name="score1">WYNIK</string>
+    <string name="highest_score">WYSOKI WYNIK</string>
+    <string name="touch">" Dotknij, aby rozpocząć grę"</string>
+    <string name="eat_fish">JEDZ RYBY</string>
+</resources>

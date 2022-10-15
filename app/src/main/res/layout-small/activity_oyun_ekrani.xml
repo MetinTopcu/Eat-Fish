@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/deniz6"
+    tools:context=".OyunEkraniActivity">
+
+    <TextView
+        android:id="@+id/textViewOyunaBasla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="@string/touch"
+        android:textColor="#5D67BA"
+        android:textColorHighlight="#DD2C00"
+        android:textColorHint="#2962FF"
+        android:textColorLink="#FF6D00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/mavibalik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSkor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/score"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewsifir"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewsifir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="13dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/anakarakter"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/kopekbaligi5" />
+
+    <ImageView
+        android:id="@+id/saridaire"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/saribalik3" />
+
+    <ImageView
+        android:id="@+id/kirmiziucgen"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saridaire"
+        app:srcCompat="@drawable/kirmizibalik" />
+
+    <ImageView
+        android:id="@+id/siyahkare"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kirmiziucgen"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/mavibalik"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anakarakter"
+        app:srcCompat="@drawable/mavibalik" />
+
+    <ImageView
+        android:id="@+id/mayin"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKirmizi"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSkor"
+        app:srcCompat="@drawable/kirmizibalik" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewSari"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSkor"
+        app:srcCompat="@drawable/saribalik3" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewMavi"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSkor"
+        app:srcCompat="@drawable/mavibalik" />
+
+    <TextView
+        android:id="@+id/textViewKirmizi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="6dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="6sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSkor" />
+
+    <TextView
+        android:id="@+id/textViewSari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="6dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="6sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMavi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="6dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="6sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSkor" />
+
+    <ImageView
+        android:id="@+id/saridaire1"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mavibalik"
+        app:srcCompat="@drawable/saribalik3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

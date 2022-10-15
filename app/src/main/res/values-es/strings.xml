@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Comer pescado - Trampa de comer</string>
+    <string name="points">25 puntaje</string>
+    <string name="points2">50 puntaje</string>
+    <string name="_40_points">40 puntaje</string>
+    <string name="game_over">Game Over</string>
+    <string name="start">Start</string>
+    <string name="score">"puntaje : "</string>
+    <string name="score1">puntaje</string>
+    <string name="highest_score">mejor puntuación</string>
+    <string name="touch">"Toca para iniciar el juego "</string>
+    <string name="eat_fish">"COME PESCADO "</string>
+</resources>

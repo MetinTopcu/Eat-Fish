@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReklamFragment">
+
+    <Button
+        android:id="@+id/buttonOdul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/odulbuttontasarim"
+        android:text="Button"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonReklamIzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/odulbuttontasarim"
+        android:text="Reklam İzle"
+        android:textSize="18sp" />
+
+</FrameLayout>

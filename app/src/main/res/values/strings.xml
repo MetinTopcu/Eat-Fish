@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">"Eat fish - don't eat mine "</string>
+    <string name="points">25 Points</string>
+    <string name="points2">50 Points</string>
+    <string name="_40_points">40 Points</string>
+    <string name="game_over">Game Over</string>
+    <string name="start">Start</string>
+    <string name="score">Score : </string>
+    <string name="score1">SCORE</string>
+    <string name="highest_score">HIGHEST SCORE</string>
+    <string name="touch">Touch to start game</string>
+    <string name="eat_fish">EAT FISH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
